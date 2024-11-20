@@ -1,0 +1,34 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 70%;
+    margin-left: 200px;
+    height: 400px;
+}
+.section1{
+    background-color: rgb(171, 159, 159);
+    padding: 0 60px;
+}
+
+.pets{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pets div{
+    /* width: 22%; */
+    width: 300px;
+}
+
+.pet{
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(171, 159, 159);
+}
+.centreposition{
+margin-left: 50%;
+}
