@@ -4,8 +4,8 @@
     padding: 0;
 }
 .bg{
-    width: 70%;
-    margin-left: 200px;
+    width: 100%;
+    /* margin-left: 200px; */
     height: 400px;
 }
 .section1{
@@ -80,5 +80,11 @@ margin-left: 50%;
     display: flex;
     margin: 20 px 30px;
 } */
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
  

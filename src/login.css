@@ -98,3 +98,9 @@ input{
    justify-content: center;
 }
 
+
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}

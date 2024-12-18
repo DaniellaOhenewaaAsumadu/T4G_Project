@@ -58,9 +58,12 @@ form input{
  
  .pets{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     /* flex-direction: row; */
+    gap: 20px;
+    /* width: 200px;
+    height: 50px; */
  }
  .form2{
     display: flex;
@@ -78,3 +81,19 @@ form input{
     text-align: center;
     justify-content: center;
  }
+ pet{
+   /* padding-left: 20px; */
+   padding-top: 20px;
+   width: 100%;
+   background-color: rgb(171, 159, 159);
+   height: 30px;
+}
+.pets div{
+   /* width: 22%; */
+   width: 300px;
+}
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}

@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(231, 156, 18);
+}
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+}
+.more{
+    width: 30%;
+}
+.more img{
+   width: 100%;
+   height: 300px;
+}
+/* input{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* 
+.petsdiv{
+    width: 70%;
+    height: 360px;
+} */
+
+
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+input{
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+.go{
+    width: 100%;
+    height: 300px;
+}
+.text{
+    width: 100%;
+    /* height: 250px; */
+    line-height: 20px;
+    /* list-style: none; */
+    background-color:rgb(193, 172, 172);
+    display: flex;
+}
+.bg3{
+    width: 100%;
+    height: 350px;
+    
+}
