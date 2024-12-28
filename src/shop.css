@@ -68,3 +68,7 @@ nav{
     height: 350px;
     
 }
+input{
+    margin-left: 120px;
+    padding: 5px 5px;
+}

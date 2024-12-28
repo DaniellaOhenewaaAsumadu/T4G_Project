@@ -3,7 +3,11 @@ body{
     margin: 0;
     padding: 0;
 }
-  
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
 
 .parrotsimg{
    width: 100%;
@@ -25,6 +29,7 @@ body{
  .pets{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
     
     flex-wrap: wrap;
     gap: 40px;
@@ -41,4 +46,101 @@ body{
 .pets div{
     /* width: 22%; */
     width: 300px;
+}
+.circle1{
+   background-color:green; 
+   width: 25%;
+   height: 200px;
+   padding-top: 60px; 
+     /* padding-left: 20px; */
+     border-radius: 50%;
+     text-align: center;
+     /* justify-content: center; */
+
+}
+.centreposition1{
+   text-align: center;
+}
+.bg2{
+   display: flex;
+   width: 100%;
+   gap: 20px;
+   justify-content: center;
+   padding-top: 30px;
+    /* margin-left: 200px; */
+    height: 400px;
+    /* background-color: rgb(223, 138, 11); */
+}
+.circle2{
+    background-color: green;
+    width: 25%;
+    height: 200px;
+    padding-top: 30px;
+    /* padding-left: 20px; */
+    border-radius: 50%;
+    text-align: center;
+    /* justify-content: center; */
+    margin-top: 120px;
+    
+}
+.circle3{
+    background-color: green;
+    width: 25%;
+    height: 200px;
+    padding-top: 30px;
+    /* padding-left: 60px; */
+    border-radius: 50%;
+    text-align: center;
+    justify-content: centre;
+}
+/* .section3{
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    padding-right: 0px;
+} */
+ .bg1{
+    width: 70%;
+    margin-left: 200px;
+    height: 400px;
+}
+.petfour{
+   width: 100%;
+   height: 400px;
+}
+
+.biggerdiv{
+   display: flex;
+   /* gap: 20px; */
+   /* flex-wrap: wrap; */
+}
+input{
+
+width: 500px;
+  height: 25px;
+  line-height: 10px;
+  border-radius: 10px;
+
+}
+.smalldiv{
+   display: flex;
+   /* padding-left: 50px; */
+   justify-content: center;
+   /* background-color: azure; */
+   width: 60%;
+   margin-left: 100px;
+   padding-top: 20px;
+   height: 400px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 30px;
+   
+}
+.smalldiv2{
+   width: 40%;
+   background-color: blueviolet;
+}
+.more{
+   padding: 10px 10px;
+   background-color: azure;
 }
