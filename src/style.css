@@ -8,11 +8,18 @@
     /* margin-left: 200px; */
     height: 400px;
 }
+.is{
+    text-align: center;
+}
 .section1{
     background-color: rgb(171, 159, 159);
     padding: 0 60px;
 }
-
+.she{
+    background-color: black;
+    color: white;
+    margin-right: 150px;
+}
 .pets{
     display: flex;
     justify-content: space-between;
@@ -22,7 +29,11 @@
     /* width: 22%; */
     width: 300px;
 }
-
+.in{
+    display: flex;
+    /* gap: 70px; */
+    justify-content: center;
+}
 .pet{
     /* padding-left: 20px; */
     padding-top: 20px;
@@ -31,7 +42,17 @@
 }
 .centreposition{
 margin-left: 50%;
+padding: 6px 6px;
+box-shadow: 4px 4px 4px ;
+margin-bottom: 10px;
 }
+.position{
+    padding: 6px 6px;
+box-shadow: 4px 4px 4px ;
+background-color: blanchedalmond;
+font-family: cursive;
+}
+
 .circle1{
     background-color:rgb(228, 114, 8); 
     width: 30%;
@@ -42,6 +63,36 @@ margin-left: 50%;
       text-align: center;
       justify-content: center;
 
+}
+.foot{
+    display: flex;
+    /* gap: 60px; */
+    width: 100%;
+background-color: orangered;
+justify-content: space-between;
+}
+footer{
+    
+}
+.half{
+    background-color: aquamarine;
+    width: 25%;
+     padding: 20px 20px;
+}
+.parrot{
+    width: 50%;
+}
+.parrot img{
+    width: 100%;
+}
+.or{
+    width: 25%;
+    padding: 20px 20px;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.or h4{
+    color: white;
 }
 .bg2{
     display: flex;
@@ -63,6 +114,14 @@ margin-left: 50%;
     margin-top: 120px;
     
 }
+.so:hover{
+    background-color: orchid;
+    color: aliceblue;
+    
+}
+.fa-brands:hover{
+    color: blueviolet;
+  }
 .circle3{
     background-color:rgb(155, 75, 29);
     width: 30%;
@@ -95,10 +154,19 @@ margin-left: 50%;
 .of{
     width: 70%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.fa-brands{
+    font: 1.5em large;
+    margin: 5px 5px;
+  }
 nav{
     display: flex;
     justify-content: center;
     gap: 50px;
+    font: 1.2em large;
 }
 body{
     background-color: rgb(226, 149, 6);
@@ -125,6 +193,7 @@ body{
  }
  .biggerdiv{
     display: flex;
+    width: 100%;
     /* gap: 20px; */
     /* flex-wrap: wrap; */
  }
@@ -141,18 +210,21 @@ body{
     justify-content: center;
     /* background-color: azure; */
     width: 50%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     padding-top: 20px;
-    height: 300px;
+    height: 400px;
     
 }
 
 .smalldiv2{
-    width: 40%;
+    width: 50%;
+    border-radius: 50%;
+    height: 400px;
 }
 .smalldiv2 img{
 width: 100%;
 height: 300px;
+border-radius: 50%;
 }
 /* form{
     line-height: 20px;

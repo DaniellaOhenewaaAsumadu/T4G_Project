@@ -1,23 +1,9 @@
-function show (){
-    let or =document.getElementById("hey");
-    or.style.width="50%"
-    or.style.marginLeft="300px"
-    or.style.transitionDuration="300ms";
-    // let name =prompt("what is your name");
-    // let mon =document.getElementById("am");
-    // mon.innerHTML=(`Hello ${name}, feel free to navigate this website`);
-    // mon.style.color="white";
-}
-let more = document.getElementById("hey");
-more.addEventListener("mouseover",show);
+// function show (){
+//     alert(`you are now logged in`);
+// }
 
-function Show (){
-    let Or =document.getElementById("hey");
-    Or.style.width="100%"
-    Or.style.marginLeft="0px"
-}
-let More = document.getElementById("hey");
-More.addEventListener("mouseleave",Show);
+// let more = document.getElementById("log");
+// more.addEventListener('click',show);
 
 function showtwo (){
     let or2 =document.getElementById("hey2");

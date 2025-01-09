@@ -4,10 +4,7 @@ body{
    padding: 0;
 }
 
-nav{
 
-  
-}
 .parrotsimg{
    width: 100%;
    height: 300px;
@@ -64,6 +61,7 @@ nav{
    /* padding-left: 20px; */
    padding-top: 20px;
    width: 100%;
+   height: 200px;
    background-color: rgb(171, 159, 159);
 }
 input{
@@ -76,8 +74,16 @@ input{
    display: flex;
    justify-content: center;
 }
+.prompt{
+   text-align: center;
+   line-height: 45px;
+}
 .orange{
    background-color: rgb(218, 152, 30);
+}
+a{
+   text-decoration: none;
+   color: black;
 }
 .pink{
    background-color: rgb(177, 100, 126);
@@ -89,18 +95,63 @@ input{
    width:100% ;
    height: 300px;
 }
-.footer i{
-   height: 100px;
-   width: 100%;
+footer{
    background-color: rgb(244, 164, 15);
-}
-.prompt{
-   justify-content: center;
+   
 }
 
-
+.fa-brands{
+   font: 1.2em large;
+   margin: 5px 5px;
+ }
+ .fa-brands:hover{
+   color: blueviolet;
+ }
 nav{
    display: flex;
    justify-content: center;
    gap: 50px;
+   font: 1.2em large;
+}
+.socials{
+   display: flex;
+   gap: 20pt;
+/* height: 100px; */
+justify-content: center;
+font: 1.5em sans-serif;
+/* width: 40%; */
+margin-top: 20px;
+}
+.con{
+   text-align: center;
+ }
+
+.foot{
+   display: flex;
+   /* gap: 60px; */
+   width: 100%;
+background-color: orangered;
+justify-content: space-between;
+}
+
+.half{
+   /* background-color: aquamarine; */
+   width: 25%;
+    padding: 20px 20px;
+}
+.parrot{
+   width: 50%;
+}
+.parrot img{
+   width: 100%;
+}
+.or{
+   width: 25%;
+   padding: 20px 20px;
+   /* background-color: blue; */
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.or h4{
+   color: white;
+   
 }

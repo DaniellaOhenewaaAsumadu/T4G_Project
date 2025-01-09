@@ -1,0 +1,46 @@
+.foot{
+    display: flex;
+    /* gap: 60px; */
+    width: 100%;
+ background-color: orangered;
+ justify-content: space-between;
+ }
+ 
+ .half{
+    /* background-color: aquamarine; */
+    width: 25%;
+     padding: 20px 20px;
+ }
+ .parrot{
+    width: 50%;
+ }
+ .parrot img{
+    width: 100%;
+}
+.or{
+    width: 25%;
+    padding: 20px 20px;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.or h4{
+    color: white;}
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        background-color: orange;
+        padding-top: 5px;
+        font: 1.2em large;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .fa-brands{
+        font: 2em large;
+        margin: 5px 5px;
+      }
+      .fa-brands:hover{
+        color: blueviolet;
+      }

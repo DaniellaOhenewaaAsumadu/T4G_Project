@@ -56,14 +56,12 @@ form input{
     padding: 0 60px;
  }
  
- .pets{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    gap: 20px;
-    /* width: 200px;
-    height: 50px; */
+ .fa-brands{
+   font: 1.5em large;
+   margin: 5px 5px;
+ }
+ .fa-brands:hover{
+   color: blueviolet;
  }
  .form2{
     display: flex;
@@ -72,8 +70,11 @@ form input{
  .black{
     background-color: black;
     color: white;
+    width: 70px;
+    margin-left: 200px;
+    margin-top: 5px;
  }
- h4{
+ .h{
     text-align: center;
     justify-content: center;
  }
@@ -81,19 +82,70 @@ form input{
     text-align: center;
     justify-content: center;
  }
- pet{
-   /* padding-left: 20px; */
-   padding-top: 20px;
+ 
+ .foot{
+   display: flex;
+   /* gap: 60px; */
    width: 100%;
-   background-color: rgb(171, 159, 159);
-   height: 30px;
+background-color: orangered;
+justify-content: space-between;
+}
+footer{
+   
+}
+.half{
+   /* background-color: aquamarine; */
+   width: 25%;
+    padding: 20px 20px;
+}
+.parrot{
+   width: 50%;
+}
+.parrot img{
+   width: 100%;
+}
+.or{
+   width: 25%;
+   padding: 20px 20px;
+   /* background-color: blue; */
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.or h4{
+   color: white;
+}
+.pets{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 .pets div{
    /* width: 22%; */
    width: 300px;
 }
+.more{
+   text-align: center;
+}
+
+.pet{
+   /* padding-left: 20px; */
+   padding-top: 20px;
+   width: 100%;
+   background-color: rgb(171, 159, 159);
+   /* height: 200px; */
+}
 nav{
    display: flex;
    justify-content: center;
    gap: 50px;
+   font: 1.2em large;
+
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.so:hover{
+   background-color: orchid;
+   color: aliceblue;
+   
 }

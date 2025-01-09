@@ -7,17 +7,58 @@ nav{
    display: flex;
    justify-content: center;
    gap: 50px;
+   font: 1.2em large;
+   color: black;
+}
+a{
+   text-decoration: none;
 }
 
 .parrotsimg{
    width: 100%;
    height: 300px;
 }
+.fa-brands{
+   font: 1.5em large;
+   margin: 5px 5px;
+ }
+ .fa-brands:hover{
+   color: blueviolet;
+ }
 *{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
  }
+ .foot{
+   display: flex;
+   /* gap: 60px; */
+   width: 100%;
+background-color: orangered;
+justify-content: space-between;
+}
+footer{
+   
+}
+.half{
+   /* background-color: aquamarine; */
+   width: 25%;
+    padding: 20px 20px;
+}
+.parrot{
+   width: 50%;
+}
+.parrot img{
+   width: 100%;
+}
+.or{
+   width: 25%;
+   padding: 20px 20px;
+   background-color: blue;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.or h4{
+   color: white;}
 
  .section1{
     background-color: rgb(171, 159, 159);
