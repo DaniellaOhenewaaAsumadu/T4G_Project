@@ -135,7 +135,7 @@ justify-content: space-between;
 }
 
 .half{
-   /* background-color: aquamarine; */
+   background-color: rgb(222, 124, 38);
    width: 25%;
     padding: 20px 20px;
 }
@@ -148,7 +148,7 @@ justify-content: space-between;
 .or{
    width: 25%;
    padding: 20px 20px;
-   /* background-color: blue; */
+   background-color: rgb(222, 124, 38);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .or h4{

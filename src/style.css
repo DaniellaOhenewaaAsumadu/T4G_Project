@@ -51,6 +51,7 @@ margin-bottom: 10px;
 box-shadow: 4px 4px 4px ;
 background-color: blanchedalmond;
 font-family: cursive;
+width: 70px;
 }
 
 .circle1{
@@ -71,11 +72,9 @@ font-family: cursive;
 background-color: orangered;
 justify-content: space-between;
 }
-footer{
-    
-}
+
 .half{
-    background-color: aquamarine;
+    background-color: rgb(222, 124, 38);
     width: 25%;
      padding: 20px 20px;
 }
@@ -88,7 +87,7 @@ footer{
 .or{
     width: 25%;
     padding: 20px 20px;
-    background-color: blue;
+    background-color: rgb(222, 124, 38);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .or h4{
@@ -178,10 +177,11 @@ body{
  }
  .bbycircle{
     text-align: center;
-    justify-content: center;
-    width: 70%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     /* padding-left: 50%; */
-    padding: 10%;
+    /* padding: 10%; */
  }
  .right{
     justify-content: end;
@@ -194,6 +194,7 @@ body{
  .biggerdiv{
     display: flex;
     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* gap: 20px; */
     /* flex-wrap: wrap; */
  }
@@ -202,8 +203,10 @@ body{
  width: 300px;
    height: 25px;
    line-height: 10px;
+   border-radius: 30px;
 
  }
+ 
 .smalldiv{
     display: flex;
     /* padding-left: 50px; */
@@ -213,18 +216,19 @@ body{
     /* margin-left: 100px; */
     padding-top: 20px;
     height: 400px;
+    background-color: aquamarine;
     
 }
 
 .smalldiv2{
     width: 50%;
-    border-radius: 50%;
-    height: 400px;
+    /* border-radius: 50%; */
+    /* height: 400px; */
 }
 .smalldiv2 img{
 width: 100%;
-height: 300px;
-border-radius: 50%;
+/* height: 400px; */
+/* border-radius: 50%; */
 }
 /* form{
     line-height: 20px;
@@ -239,3 +243,7 @@ border-radius: 50%;
     margin-bottom: 20px;
     padding-left: 20px;
    } */
+    .bbycircle{
+        font-family: cursive;
+        line-height: 25px;
+    }
