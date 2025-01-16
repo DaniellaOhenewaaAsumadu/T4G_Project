@@ -68,7 +68,7 @@ Morefour.addEventListener("mouseleave",Showfour);
 function showfive (){
     let or2 =document.getElementById("hey5");
     or2.style.width="50%"
-    or2.style.borderradius="30px"
+    // or2.style.borderradius="30px"
     or2.style.transitionDuration="300ms";
    
 }

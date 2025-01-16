@@ -145,6 +145,10 @@ justify-content: space-between;
 .parrot img{
    width: 100%;
 }
+.see{
+   background-color: burlywood;
+
+ }
 .or{
    width: 25%;
    padding: 20px 20px;

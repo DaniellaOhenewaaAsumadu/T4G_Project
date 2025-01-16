@@ -216,9 +216,13 @@ body{
     /* margin-left: 100px; */
     padding-top: 20px;
     height: 400px;
-    background-color: aquamarine;
+   
     
 }
+.see{
+    background-color: burlywood;
+  
+  }
 
 .smalldiv2{
     width: 50%;

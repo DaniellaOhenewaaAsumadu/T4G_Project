@@ -65,12 +65,41 @@
         width: 100%;
         height: 569px;
       }
+      .small p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .small b{
+        color: white;
+      }
+      .small h3{
+        color: white;
+        text-align: center;
+      }
+      .see{
+        background-color: burlywood;
+        padding: 3px 3px;
+      }
       .cont2{
         width: 100%;
         display: flex;
         /* justify-content: space-around; */
         padding-top: 30px;
         padding-left: 20px;
+      }
+      .cont3{
+        width: 100%;
+        display: flex;
+        /* justify-content: space-around; */
+        padding-top: 30px;
+        padding-left: 20px;
+        height: 200px;
+      }
+      .dog1 img{
+        width: 90%;
+        height: 150px;
       }
       .dog img{
         width: 90%;
@@ -92,7 +121,8 @@
       }
       .textes{
         width: 60%;
-        font-family: cursive;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* line-height: 25px; */
         background-color: orange;
        
       }
@@ -102,3 +132,8 @@
       h2{
         text-align: center;
       }
+      .so:hover{
+        background-color: orchid;
+        color: aliceblue;
+        
+    }

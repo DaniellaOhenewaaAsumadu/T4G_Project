@@ -8,7 +8,7 @@
 function showtwo (){
     let or2 =document.getElementById("hey2");
     or2.style.width="50%"
-    or2.style.borderradius="30px"
+    // or2.style.borderradius="30px"
     or2.style.transitionDuration="300ms";
    
 }
@@ -28,10 +28,10 @@ Moretwo.addEventListener("mouseleave",Showtwo);
 
 
 function showthree (){
-    let or2 =document.getElementById("hey3");
-    or2.style.width="50%"
-    or2.style.borderradius="30px"
-    or2.style.transitionDuration="300ms";
+    let or3 =document.getElementById("hey3");
+    or3.style.width="50%"
+   
+    or3.style.transitionDuration="300ms";
    
 }
 
@@ -51,10 +51,10 @@ Morethree.addEventListener("mouseleave",Showthree);
 
 
 function showfour (){
-    let or2 =document.getElementById("hey4");
-    or2.style.width="50%"
-    or2.style.borderradius="30px"
-    or2.style.transitionDuration="300ms";
+    let or4 =document.getElementById("hey4");
+    or4.style.width="50%"
+    or4.style.borderradius="30px"
+    or4.style.transitionDuration="300ms";
    
 }
 
@@ -73,10 +73,10 @@ Morefour.addEventListener("mouseleave",Showfour);
 
 
 function showfive (){
-    let or2 =document.getElementById("hey5");
-    or2.style.width="50%"
-    or2.style.borderradius="30px"
-    or2.style.transitionDuration="300ms";
+    let or5 =document.getElementById("hey5");
+    or5.style.width="50%"
+    or5.style.borderradius="30px"
+    or5.style.transitionDuration="300ms";
    
 }
 
